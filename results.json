@@ -1,0 +1,125 @@
+{
+  "best_case (shallow scramble, 4 moves)": {
+    "start_state": [
+      1,
+      5,
+      2,
+      4,
+      0,
+      3,
+      7,
+      8,
+      6
+    ],
+    "BFS": {
+      "times_ms": [
+        0.0516,
+        0.0359,
+        0.0327,
+        0.0309,
+        0.0308
+      ],
+      "avg_ms": 0.0364,
+      "min_ms": 0.0308,
+      "max_ms": 0.0516,
+      "nodes_expanded": 24,
+      "path_length": 4
+    },
+    "DFS": {
+      "times_ms": [
+        46.6254,
+        43.473,
+        42.3212,
+        44.6949,
+        42.7437
+      ],
+      "avg_ms": 43.9716,
+      "min_ms": 42.3212,
+      "max_ms": 46.6254,
+      "nodes_expanded": 42235,
+      "path_length": 4
+    }
+  },
+  "average_case (medium scramble, 12 moves)": {
+    "start_state": [
+      4,
+      1,
+      2,
+      7,
+      5,
+      6,
+      0,
+      3,
+      8
+    ],
+    "BFS": {
+      "times_ms": [
+        1.6759,
+        1.8169,
+        1.6114,
+        1.643,
+        1.5732
+      ],
+      "avg_ms": 1.6641,
+      "min_ms": 1.5732,
+      "max_ms": 1.8169,
+      "nodes_expanded": 1128,
+      "path_length": 12
+    },
+    "DFS": {
+      "times_ms": [
+        35.7087,
+        35.8554,
+        37.6128,
+        34.1862,
+        33.7268
+      ],
+      "avg_ms": 35.418,
+      "min_ms": 33.7268,
+      "max_ms": 37.6128,
+      "nodes_expanded": 34661,
+      "path_length": 30
+    }
+  },
+  "worst_case (deep scramble, 22 moves)": {
+    "start_state": [
+      2,
+      1,
+      5,
+      4,
+      0,
+      8,
+      7,
+      6,
+      3
+    ],
+    "BFS": {
+      "times_ms": [
+        56.6839,
+        52.8414,
+        54.1195,
+        53.1286,
+        52.7794
+      ],
+      "avg_ms": 53.9105,
+      "min_ms": 52.7794,
+      "max_ms": 56.6839,
+      "nodes_expanded": 31523,
+      "path_length": 18
+    },
+    "DFS": {
+      "times_ms": [
+        13.2906,
+        13.0035,
+        12.9738,
+        12.781,
+        13.0294
+      ],
+      "avg_ms": 13.0157,
+      "min_ms": 12.781,
+      "max_ms": 13.2906,
+      "nodes_expanded": 13846,
+      "path_length": 30
+    }
+  }
+}
