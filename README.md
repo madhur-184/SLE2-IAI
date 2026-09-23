@@ -70,6 +70,4 @@ This exercise confirmed the textbook comparison of BFS and DFS, but seeing it in
 
 
 
-GitHub: https://github.com/madhur-184/IAI-SLE
 
-See [`AI_CONTRIBUTION_LOG.md`](./AI_CONTRIBUTION_LOG.md) for a breakdown of AI-assisted vs. self-done work.
